@@ -1,4 +1,4 @@
-update=Sat 20 Jun 2015 12:30:44 AM EDT
+update=Sat 20 Jun 2015 01:52:16 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,16 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/brightcloud/kicad/bce
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
