@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Sat 20 Jun 2015 12:58:47 AM EDT
+
+BeginCmp
+TimeStamp = /5585397A;
+Reference = C1;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558551A5;
+Reference = C2;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /558563DC;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851B48;
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55852830;
+Reference = C5;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55852106;
+Reference = C6;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851DEA;
+Reference = C7;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55852D99/55852FCE;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55852D99/55853006;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5585443C/558545DE;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5585443C/55854763;
+Reference = C11;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558559D3/55855C2E;
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851CDF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851970;
+Reference = P1;
+ValeurCmp = PWRCONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55853DE6;
+Reference = P2;
+ValeurCmp = SWD_CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /558540FC;
+Reference = P3;
+ValeurCmp = UART_CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /558561A3;
+Reference = P4;
+ValeurCmp = DDSOUT_SMA;
+IdModule  = w_conn_rf:sma_straight_32k101-400l5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55855131;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851B9B;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/5585213C;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851C98;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55852D99/55852F2A;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55852D99/55852E59;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /558559D3/55855CE6;
+Reference = R7;
+ValeurCmp = 50;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/558521CE;
+Reference = TP1;
+ValeurCmp = 5V;
+IdModule  = bce:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55852299;
+Reference = TP2;
+ValeurCmp = 3.3VG;
+IdModule  = bce:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55852361;
+Reference = TP3;
+ValeurCmp = 3.3VDDS;
+IdModule  = bce:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /5585443C/558547B9;
+Reference = TP4;
+ValeurCmp = 25MHz;
+IdModule  = bce:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /5585443C/55854804;
+Reference = TP5;
+ValeurCmp = DDSOUT;
+IdModule  = bce:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55853607;
+Reference = U1;
+ValeurCmp = 25MHz;
+IdModule  = bce:SIOSC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/55851B19;
+Reference = U2;
+ValeurCmp = FAN2558S33X;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55851AFC/5585214E;
+Reference = U3;
+ValeurCmp = FAN2558S33X;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55852D99/55852DAB;
+Reference = U4;
+ValeurCmp = STM32F030F4;
+IdModule  = Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5585443C/558544D6;
+Reference = U5;
+ValeurCmp = AD9833;
+IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /558559D3/55855BA9;
+Reference = U6;
+ValeurCmp = ADA4853-1;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC-70-6;
+EndCmp
+
+EndListe
