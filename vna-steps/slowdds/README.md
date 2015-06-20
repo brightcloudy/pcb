@@ -1,1 +1,1 @@
-![Board Front](/docs/slowdds.png)
+![Board Front](docs/slowdds.png)
