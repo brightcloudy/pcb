@@ -1,0 +1,195 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bce
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD9833 U?
+U 1 1 558544D6
+P 6050 4050
+F 0 "U?" H 6050 3950 50  0000 C CNN
+F 1 "AD9833" H 6050 4150 50  0000 C CNN
+F 2 "MODULE" H 6050 4350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 6050 3750 50  0001 C CNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 558545DE
+P 4750 4200
+F 0 "C?" H 4775 4300 50  0000 L CNN
+F 1 "100n" H 4775 4100 50  0000 L CNN
+F 2 "" H 4788 4050 30  0000 C CNN
+F 3 "" H 4750 4200 60  0000 C CNN
+	1    4750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55854617
+P 4750 4350
+F 0 "#PWR?" H 4750 4100 50  0001 C CNN
+F 1 "GND" H 4750 4200 50  0000 C CNN
+F 2 "" H 4750 4350 60  0000 C CNN
+F 3 "" H 4750 4350 60  0000 C CNN
+	1    4750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5585462D
+P 5000 4250
+F 0 "#PWR?" H 5000 4000 50  0001 C CNN
+F 1 "GND" H 5000 4100 50  0000 C CNN
+F 2 "" H 5000 4250 60  0000 C CNN
+F 3 "" H 5000 4250 60  0000 C CNN
+	1    5000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4250 5000 4150
+Wire Wire Line
+	5000 4150 5300 4150
+Wire Wire Line
+	4750 4050 5300 4050
+Text HLabel 5150 4650 0    60   Input ~ 0
+25MHz
+Wire Wire Line
+	5150 4650 5200 4650
+Wire Wire Line
+	5200 4250 5200 4900
+Wire Wire Line
+	5200 4250 5300 4250
+Text HLabel 7000 4250 2    60   Input ~ 0
+SDATA
+Text HLabel 7000 4150 2    60   Input ~ 0
+SCLK
+Text HLabel 7000 4050 2    60   Input ~ 0
+FSYNC
+Wire Wire Line
+	6800 4050 7000 4050
+Wire Wire Line
+	6800 4150 7000 4150
+Wire Wire Line
+	6800 4250 7000 4250
+Text HLabel 7000 3850 2    60   Output ~ 0
+VOUT
+Wire Wire Line
+	7000 3850 6800 3850
+$Comp
+L GND #PWR?
+U 1 1 55854706
+P 7500 4050
+F 0 "#PWR?" H 7500 3800 50  0001 C CNN
+F 1 "GND" H 7500 3900 50  0000 C CNN
+F 2 "" H 7500 4050 60  0000 C CNN
+F 3 "" H 7500 4050 60  0000 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3950 7500 3950
+Wire Wire Line
+	7500 3950 7500 4050
+$Comp
+L +3.3VDAC #PWR?
+U 1 1 5585473D
+P 4800 3950
+F 0 "#PWR?" H 4950 3900 50  0001 C CNN
+F 1 "+3.3VDAC" H 4800 4050 50  0000 C CNN
+F 2 "" H 4800 3950 60  0000 C CNN
+F 3 "" H 4800 3950 60  0000 C CNN
+	1    4800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3950 5300 3950
+$Comp
+L C C?
+U 1 1 55854763
+P 5000 3800
+F 0 "C?" H 5025 3900 50  0000 L CNN
+F 1 "10n" H 5025 3700 50  0000 L CNN
+F 2 "" H 5038 3650 30  0000 C CNN
+F 3 "" H 5000 3800 60  0000 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 3850
+Connection ~ 5000 3950
+$Comp
+L TP TP?
+U 1 1 558547B9
+P 6050 4900
+F 0 "TP?" H 6050 4800 50  0000 C CNN
+F 1 "25MHz" H 6050 5000 50  0000 C CNN
+F 2 "MODULE" H 5800 4750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP TP?
+U 1 1 55854804
+P 7800 3450
+F 0 "TP?" H 7800 3350 50  0000 C CNN
+F 1 "DDSOUT" H 7800 3550 50  0000 C CNN
+F 2 "MODULE" H 7550 3300 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3450 6900 3450
+Wire Wire Line
+	6900 3450 6900 3850
+Connection ~ 6900 3850
+Wire Wire Line
+	5200 4900 5300 4900
+Connection ~ 5200 4650
+$EndSCHEMATC

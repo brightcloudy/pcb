@@ -1,0 +1,157 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bce
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADA4853-1 U?
+U 1 1 55855BA9
+P 5450 3600
+F 0 "U?" H 5450 3500 50  0000 C CNN
+F 1 "ADA4853-1" H 5450 3800 50  0000 C CNN
+F 2 "MODULE" H 5450 3800 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5450 3400 50  0001 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55855BE6
+P 4100 3700
+F 0 "#PWR?" H 4100 3450 50  0001 C CNN
+F 1 "GND" H 4100 3550 50  0000 C CNN
+F 2 "" H 4100 3700 60  0000 C CNN
+F 3 "" H 4100 3700 60  0000 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3600 4700 3600
+Text HLabel 4600 3700 0    60   Input ~ 0
+DDSIN
+Wire Wire Line
+	4100 3700 4100 3600
+Wire Wire Line
+	4600 3700 4700 3700
+$Comp
+L C C?
+U 1 1 55855C2E
+P 6650 3250
+F 0 "C?" H 6675 3350 50  0000 L CNN
+F 1 "100n" H 6675 3150 50  0000 L CNN
+F 2 "" H 6688 3100 30  0000 C CNN
+F 3 "" H 6650 3250 60  0000 C CNN
+	1    6650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55855C6B
+P 6650 3400
+F 0 "#PWR?" H 6650 3150 50  0001 C CNN
+F 1 "GND" H 6650 3250 50  0000 C CNN
+F 2 "" H 6650 3400 60  0000 C CNN
+F 3 "" H 6650 3400 60  0000 C CNN
+	1    6650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55855C93
+P 6950 3700
+F 0 "#PWR?" H 6950 3450 50  0001 C CNN
+F 1 "GND" H 6950 3550 50  0000 C CNN
+F 2 "" H 6950 3700 60  0000 C CNN
+F 3 "" H 6950 3700 60  0000 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3600 6950 3600
+Wire Wire Line
+	6950 3600 6950 3700
+Wire Wire Line
+	6200 3500 6450 3500
+Wire Wire Line
+	6450 3500 6450 3100
+Wire Wire Line
+	6450 3100 6650 3100
+$Comp
+L +3.3VDAC #PWR?
+U 1 1 55855CB3
+P 6650 3100
+F 0 "#PWR?" H 6800 3050 50  0001 C CNN
+F 1 "+3.3VDAC" H 6650 3200 50  0000 C CNN
+F 2 "" H 6650 3100 60  0000 C CNN
+F 3 "" H 6650 3100 60  0000 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55855CE6
+P 4700 3250
+F 0 "R?" V 4780 3250 50  0000 C CNN
+F 1 "50" V 4700 3250 50  0000 C CNN
+F 2 "" V 4630 3250 30  0000 C CNN
+F 3 "" H 4700 3250 30  0000 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3500 4700 3400
+Text HLabel 4950 3100 2    60   Output ~ 0
+VOUT
+Wire Wire Line
+	4700 3100 4950 3100
+Wire Wire Line
+	6200 3700 6300 3700
+Wire Wire Line
+	6300 3700 6300 3200
+Wire Wire Line
+	6300 3200 4850 3200
+Wire Wire Line
+	4850 3200 4850 3100
+Connection ~ 4850 3100
+$EndSCHEMATC
