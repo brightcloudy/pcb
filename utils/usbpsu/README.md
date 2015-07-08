@@ -12,4 +12,4 @@ ICs:
 * Current Monitor: INA3221
 * UART-USB Interface: CP2103
 * Microcontroller: STM32F030
-* Buck controller: TPS62750
+* Buck controller: TPS62750 x2
