@@ -1,0 +1,223 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bce
+LIBS:stm32
+LIBS:digital-buck-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "DAC Controlled Buck Test Board"
+Date "Sat 21 Nov 2015"
+Rev "0.1"
+Comp "R. Karl"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTC3542 U4
+U 1 1 56509D8C
+P 5450 2550
+F 0 "U4" H 5450 2600 50  0000 C CNN
+F 1 "LTC3542" H 5450 2500 50  0000 C CNN
+F 2 "Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.5mm" H 5450 2550 60  0001 C CNN
+F 3 "" H 5450 2550 60  0000 C CNN
+	1    5450 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 4550 2400 0    60   Input ~ 0
+Vfb
+Wire Wire Line
+	4550 2400 4750 2400
+$Comp
+L +5V #PWR025
+U 1 1 56509E29
+P 4100 2400
+F 0 "#PWR025" H 4100 2250 50  0001 C CNN
+F 1 "+5V" H 4100 2540 50  0000 C CNN
+F 2 "" H 4100 2400 60  0000 C CNN
+F 3 "" H 4100 2400 60  0000 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2500 4750 2500
+$Comp
+L GND #PWR026
+U 1 1 56509E57
+P 4100 2700
+F 0 "#PWR026" H 4100 2450 50  0001 C CNN
+F 1 "GND" H 4100 2550 50  0000 C CNN
+F 2 "" H 4100 2700 60  0000 C CNN
+F 3 "" H 4100 2700 60  0000 C CNN
+	1    4100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2600 4750 2600
+Wire Wire Line
+	4100 2600 4100 2700
+Wire Wire Line
+	4100 2400 4100 2500
+$Comp
+L C C11
+U 1 1 56509EAE
+P 3850 2550
+F 0 "C11" H 3875 2650 50  0000 L CNN
+F 1 "4.7u" H 3875 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3888 2400 30  0001 C CNN
+F 3 "" H 3850 2550 60  0000 C CNN
+	1    3850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2700 3850 2700
+Wire Wire Line
+	3850 2400 4100 2400
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 56509EF3
+P 5000 3050
+F 0 "L1" H 5000 3150 50  0000 C CNN
+F 1 "4.7u" H 5000 3000 50  0000 C CNN
+F 2 "kicad:XFL4020" H 5000 3050 60  0001 C CNN
+F 3 "" H 5000 3050 60  0000 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2700 4600 2700
+Wire Wire Line
+	4600 2700 4600 3050
+Wire Wire Line
+	4600 3050 4750 3050
+Text Notes 4650 3250 0    60   Italic 0
+XFL4020-472
+$Comp
+L C C12
+U 1 1 56509F51
+P 5550 3200
+F 0 "C12" H 5575 3300 50  0000 L CNN
+F 1 "4.7u" H 5575 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5588 3050 30  0001 C CNN
+F 3 "" H 5550 3200 60  0000 C CNN
+	1    5550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 56509F84
+P 5800 3200
+F 0 "C13" H 5825 3300 50  0000 L CNN
+F 1 "4.7u" H 5825 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5838 3050 30  0001 C CNN
+F 3 "" H 5800 3200 60  0000 C CNN
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3050 5950 3050
+Connection ~ 5550 3050
+$Comp
+L GND #PWR027
+U 1 1 5650A002
+P 5550 3350
+F 0 "#PWR027" H 5550 3100 50  0001 C CNN
+F 1 "GND" H 5550 3200 50  0000 C CNN
+F 2 "" H 5550 3350 60  0000 C CNN
+F 3 "" H 5550 3350 60  0000 C CNN
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5650A017
+P 5800 3350
+F 0 "#PWR028" H 5800 3100 50  0001 C CNN
+F 1 "GND" H 5800 3200 50  0000 C CNN
+F 2 "" H 5800 3350 60  0000 C CNN
+F 3 "" H 5800 3350 60  0000 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5650A029
+P 6350 2900
+F 0 "#PWR029" H 6350 2650 50  0001 C CNN
+F 1 "GND" H 6350 2750 50  0000 C CNN
+F 2 "" H 6350 2900 60  0000 C CNN
+F 3 "" H 6350 2900 60  0000 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2700 6350 2700
+Wire Wire Line
+	6350 2500 6350 2900
+Wire Wire Line
+	6150 2500 6350 2500
+Connection ~ 6350 2700
+Text HLabel 6700 2600 2    60   Input ~ 0
+RUN
+$Comp
+L R R2
+U 1 1 5650A0BC
+P 6550 2750
+F 0 "R2" V 6630 2750 50  0000 C CNN
+F 1 "10k" V 6550 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6480 2750 30  0001 C CNN
+F 3 "" H 6550 2750 30  0000 C CNN
+	1    6550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2600 6700 2600
+Connection ~ 6550 2600
+$Comp
+L GND #PWR030
+U 1 1 5650A161
+P 6550 2900
+F 0 "#PWR030" H 6550 2650 50  0001 C CNN
+F 1 "GND" H 6550 2750 50  0000 C CNN
+F 2 "" H 6550 2900 60  0000 C CNN
+F 3 "" H 6550 2900 60  0000 C CNN
+	1    6550 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 5950 3050 2    60   Output ~ 0
+Vbuck
+Connection ~ 5800 3050
+$EndSCHEMATC

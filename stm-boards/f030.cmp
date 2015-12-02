@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Thu 19 Nov 2015 06:10:55 PM EST
+
+BeginCmp
+TimeStamp = /564E4274;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E47FB;
+Reference = C2;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E5D61;
+Reference = C3;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E4835;
+Reference = C4;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E4AD5;
+Reference = C5;
+ValeurCmp = 10p;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E46C1;
+Reference = C6;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E532E;
+Reference = C7;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E54CD;
+Reference = C8;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E54FD;
+Reference = C9;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564EB463;
+Reference = C10;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E8D46;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E45EB;
+Reference = L1;
+ValeurCmp = 4.7u;
+IdModule  = kicad:PFL2015;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E3CDD;
+Reference = P1;
+ValeurCmp = CONN_5V;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E6772;
+Reference = P2;
+ValeurCmp = SWD_CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /564EC7E3;
+Reference = P3;
+ValeurCmp = UART_CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E4A0C;
+Reference = R1;
+ValeurCmp = 941k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E4BBC;
+Reference = R2;
+ValeurCmp = 301k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E882A;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E8CB0;
+Reference = R4;
+ValeurCmp = 3.3k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E5B25;
+Reference = U1;
+ValeurCmp = OSC;
+IdModule  = bce:SIOSC;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E4103;
+Reference = U2;
+ValeurCmp = LTC3410;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC-70-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /564EAE4F;
+Reference = U3;
+ValeurCmp = LM95071;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /564E3BFA;
+Reference = U4;
+ValeurCmp = STM32F030F4;
+IdModule  = Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+EndListe
